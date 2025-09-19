@@ -17,7 +17,7 @@ export default async function ProductDetails({
         <ProductDetailsComp productDetails={response.data} />
       </div>
     );
-  } catch (error) {
+  } catch (_error) {
     return (
       <div className="container mx-auto text-center py-8">
         <p className="text-red-500">
