@@ -1,3 +1,11 @@
+interface Review {
+    _id: string;
+    user: string;
+    rating: number;
+    comment: string;
+    createdAt: string;
+}
+
 export interface ProductDetails {
     brand: Brand;
     category: Category;
@@ -10,7 +18,7 @@ export interface ProductDetails {
     quantity: number;
     ratingsAverage: number;
     ratingsQuantity: number;
-    reviews: any[]; 
+    reviews: Review[];
     slug: string;
     sold: number;
     subcategory: Subcategory[];

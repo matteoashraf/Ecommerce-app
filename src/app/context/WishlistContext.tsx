@@ -38,7 +38,7 @@ export default function WishlistContextProvider({
 
   useEffect(() => {
     getWishlistDetails();
-  }, []);
+  }, [getWishlistDetails]);
 
   const session = useSession();
 

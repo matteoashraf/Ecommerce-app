@@ -1,7 +1,7 @@
 "use client";
 import { ProductDetails } from "@/app/types/productDetails.model";
 import { StarRating } from "react-flexible-star-rating";
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 

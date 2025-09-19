@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { Categories } from "@/app/types/category.model";
 import Image from "next/image";
 

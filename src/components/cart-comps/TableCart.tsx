@@ -231,7 +231,7 @@ export default function TableCart() {
               Your cart is empty
             </h2>
             <p className="text-gray-500">
-              Looks like you haven't added any products yet.
+              Looks like you haven&apos;t added any products yet.
             </p>
             <Button className="bg-amber-800 hover:bg-amber-700">
               <Link href="/products">Start Shopping</Link>
